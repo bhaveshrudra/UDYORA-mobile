@@ -1,0 +1,6 @@
+{
+  "name": "UDYORA Mobile",
+  "description": "A mobile-first business advisory application for rural and semi-urban entrepreneurs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
