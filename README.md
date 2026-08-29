@@ -1,22 +1,34 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# UDYORA Mobile
 
-# Run and deploy your AI Studio app
+> **Hyper-Local Business Intelligence for Rural Entrepreneurs**
 
-This contains everything you need to run your app locally.
+UDYORA Mobile is the Android application of UDYORA, an evidence-aware business advisory platform designed to help rural and semi-urban entrepreneurs evaluate business opportunities, understand local market conditions, plan finances, discover relevant government schemes, assess risks, and make better-informed decisions.
 
-View your app in AI Studio: https://ai.studio/apps/2b6a71ff-e8e9-4927-af94-62caa0680aa8
+The application combines AI-assisted business analysis with deterministic financial calculations, rule-based scheme matching, location intelligence, evidence tracking, and multilingual support.
 
-## Run Locally
+---
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+## Overview
 
+UDYORA Mobile guides an entrepreneur through a structured business assessment:
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
-7. If you have already published your app in AI Studio, please [request upload key reset](https://support.google.com/googleplay/android-developer/answer/9842756#zippy=%2Crequest-an-upload-key-reset) in Google Play Console.
+```text
+Language Selection
+        ↓
+Entrepreneur Profile
+        ↓
+Business & Location Inputs
+        ↓
+Capital / Financial Inputs
+        ↓
+Business Assessment
+        ↓
+Multi-Agent Analysis
+        ↓
+Financial & Scheme Evaluation
+        ↓
+Risk & Evidence Analysis
+        ↓
+Feasibility Assessment
+        ↓
+Business Advisory Report
